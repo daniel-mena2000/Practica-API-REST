@@ -19,7 +19,7 @@
 <h1 class="header-title header-title--categoryView inactive">Acción</h1>
 <form id="searchForm" class="header-searchForm">
 <input type="text" placeholder="Vengadores" />
-<button>🔍</button>
+<button id="searchBtn">🔍</button>
 </form>
 </header>
 
@@ -27,7 +27,9 @@
 <section id="trendingPreview" class="trendingPreview-container">
 <div class="trendingPreview-header">
 <h2 class="trendingPreview-title">Tendencias</h2>
+
 <button class="trendingPreview-btn">Ver más</button>
+
 </div>
 <article class="trendingPreview-movieList">
 <!-- <div class="movie-container">
@@ -54,27 +56,15 @@
 
 
 <section id="genericList" class="genericList-container inactive">
-<div class="movie-container">
+  <!-- LO CAMBIE POR UN FIGCAPTION -->
+<!-- <div class="movie-container">
 <img
         src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
         class="movie-img"
         alt="Nombre de la película"
       />
-</div>
-<div class="movie-container">
-<img
-        src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-        class="movie-img"
-        alt="Nombre de la película"
-      />
-</div>
-<div class="movie-container">
-<img
-        src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-        class="movie-img"
-        alt="Nombre de la película"
-      />
-</div>
+</div> -->
+
 </section>
 
 
@@ -129,7 +119,9 @@ Wisecracking mercenary Deadpool battles the evil and powerful Cable and other ba
 <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 
 <script src="src/api-key.js"></script>
+<script src="src/nodes.js"></script>
 <script src="src/main.js"></script>
+<script src="src/navigation.js"></script>
 
   
 </body>
